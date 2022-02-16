@@ -1,0 +1,23 @@
+{
+    "name": "devstetic/advanced-forms",
+    "description": "Advanced form",
+    "type": "wordpress-muplugin",
+    "autoload": {
+        "psr-4": {
+            "Den\\AdvancedForms\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benjamin",
+            "email": "kestenba92@gmail.com"
+        }
+    ],
+    "require": {
+   	"composer/installers": "~1.0"
+    },
+
+	"installer-paths": {
+	    "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"]
+	}
+}
